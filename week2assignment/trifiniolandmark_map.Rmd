@@ -1,0 +1,15 @@
+---
+title: "mapatrifinio"
+author: "CDopazo"
+date: "19 de diciembre de 2019"
+output: html_document
+---
+
+```{r}
+library(leaflet)
+m <- leaflet() %>%
+  addTiles() %>%  
+  addMarkers(lat=1.235556, lng=-66.819444, popup="Cocuy Stone, Trifinio landmark, border of Venezuela, Brazil, Colombia")
+m
+```
+
